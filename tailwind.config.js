@@ -15,6 +15,7 @@ module.exports = {
 
     colors: {
       white: { 100: '#ffff' },
+      black: { 100: '#000000' },
       gray: {
         50: '#eaeaea',
         100: '#bebebf',
@@ -56,6 +57,11 @@ module.exports = {
     backgroundImage: {
       stripes:
         'linear-gradient(to bottom, rgba(255,255,255, 0.1), rgba(255,255,255, 0.1) 12.5%, transparent 12.5%, transparent)',
+    },
+
+    fontSize: {
+      '5xl': '2.5rem',
+      sm: '0.875rem',
     },
 
     backgroundSize: {
