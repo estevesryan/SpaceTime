@@ -5,7 +5,7 @@ import HeroSection from '@/components/HeroSection/HeroSection'
 import SignIn from '@/components/SignIn/SignIn'
 import Stripe from '@/components/Stripe/Stripe'
 import Profile from '@/components/Profile/Profile'
-import Blur from '@/components/Blur/Blur'
+import Blur from '@/components/blur/Blur'
 
 export default function Home() {
   const isAuthenticated = cookies().has('token')
