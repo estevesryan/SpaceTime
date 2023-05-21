@@ -4,8 +4,8 @@ import Copyright from '@/components/Copyright/copyright'
 import HeroSection from '@/components/HeroSection/HeroSection'
 import SignIn from '@/components/SignIn/SignIn'
 import Stripe from '@/components/Stripe/Stripe'
-import Blur from '@/components/Blur/Blur'
 import Profile from '@/components/Profile/Profile'
+import Blur from '@/components/Blur/Blur'
 
 export default function Home() {
   const isAuthenticated = cookies().has('token')
