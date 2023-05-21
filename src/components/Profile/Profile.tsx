@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 export default function Profile() {
   const { name, avatar_url } = getUser()
-  console.log(avatar_url)
   return (
     <div className="flex items-center gap-3 text-left">
       {/* profile photo */}
